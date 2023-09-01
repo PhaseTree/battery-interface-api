@@ -62,9 +62,6 @@ User need to define the simulation time.
 # Setup environment
 The application is operated with PhaseTree software on the internet. So you must be connected on internet. Hghly recommend to install Python 3.6 or newer.
 
-# Setup environment
-The application is operated with PhaseTree software on the internet. So you must be connected on internet. Hghly recommend to install Python 3.6 or newer.
-
 # Acknowledge
 ```
 This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 957189. The project is part of BATTERY 2030+, the large-scale European research initiative for inventing the sustainable batteries of the future. 
