@@ -1,7 +1,7 @@
 # battery-interface-api
-We made the battery interface simulation based on uinsg the PhaseTree software. Our approach to simulate the battery interface is separated for two steps - material properties explorer using cluster expansion and battery interface simulation using the phase-field simulation. The cluster expansion is a useful tool getting the material properties mostly faster than other atomic simulation tools. The material properties from the cluster expansion simulation shoud be archived for the user and can use it for the phase-field simulation. Phase-field method is a popular tool for simulating the interface of the battery using Finite Element Method (FEM) due to allowing to get clearly separated phase.
+We made the battery interface simulation based on using the PhaseTree software. Our approach to simulate the battery interface is separated into two steps - material properties explorer using cluster expansion and battery interface simulation using the phase-field simulation. The cluster expansion is a useful tool for getting the material properties, mostly faster than other atomic simulation tools. The material properties from the cluster expansion simulation should be archived for the user and can be used for the phase-field simulation. A phase-field method is a popular tool for simulating the interface of the battery using the Finite Element Method (FEM) due to allowing it to get a clearly separated phase.
 
-This document aims to run the phase-field simulation and how to run this application. User need to follow this simple instruction for running this simulation.
+This document aims to run the phase-field simulation and how to run this application. Users need to follow this simple instruction for running this simulation.
 ```
     1. Make the JSON file refering to below "Input file description".
     2. Submit the job using battery-interface-api.
@@ -15,8 +15,8 @@ User need to make the JSON for running the simulation. The each items shows belo
 
 * "username"
 * "password"
-* "no_of_cpus": 4,
-* "wall_time": "1:12:00:00",
+* "no_of_cpus": number of cpus 
+* "wall_time": limited time to run the simulation.
 * "job_name": name of the simulation
 * "size_x": mesh size of the x-axis. unit: μm
 * "size_y": mesh size of the y-axis. unit: μm
